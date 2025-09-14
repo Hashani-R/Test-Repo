@@ -24,6 +24,19 @@ struct ContentView: View {
             .buttonStyle(.bordered)
             .buttonStyle(.borderedProminent)
              .tint(.red)
+            
+            Button("ClickMe") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }
+            .buttonStyle(.bordered)
+            .buttonStyle(.borderedProminent)
+            .tint(.blue)
+            Button("ClickMe") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }
+            .buttonStyle(.bordered)
+            .buttonStyle(.borderedProminent)
+             .tint(.red)
              
 
         }
